@@ -35,3 +35,11 @@ CodeSandbox のサンドボックスからは GitHub のリポジトリを扱う
 
 > We were not able to compare the content with the source, please refresh or report the issue.
 > Not Found
+
+## PR ブランチを GitHubBox 経由で開いてみる
+
+1. GitHub 上でブランチを開いた状態でブラウザのアドレスバーに `box` を追加(`https://github.com/hankei6km/test-nextjs-material-ui/tree/topic/csb_local`)
+1. あとは `main(master)` のときと同じ
+1. コミットは PR 作成せずに実行すれば元のブランチにコミットできる
+
+PR はローカル側で draft で作成しておいて githubbox 経由で GitHub サンドボックスにするのが良いと思われる。
