@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Head from 'next/head';
 import NextLink from 'next/link';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
@@ -11,9 +12,12 @@ export default function Mypage() {
   const [imgUrl, setImgUrl] = useState('');
   return (
     <Container maxWidth="sm">
+      <Head>
+        <title>テストのページ</title>
+      </Head>
       <Box my={4}>
         <Typography variant="h4" component="h1" gutterBottom>
-          My Page
+          テストのページ
         </Typography>
         <NextLink href={'/'}>
           <a>index</a>
