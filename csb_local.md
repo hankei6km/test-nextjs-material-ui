@@ -36,6 +36,8 @@ CodeSandbox のサンドボックスからは GitHub のリポジトリを扱う
 > We were not able to compare the content with the source, please refresh or report the issue.
 > Not Found
 
+PR がクローズされるとサンドボックスを作り直すことになるので、とくに影響はない。
+
 ## PR ブランチを GitHubBox 経由で開いてみる
 
 1. GitHub 上でブランチを開いた状態でブラウザのアドレスバーに `box` を追加(`https://github.com/hankei6km/test-nextjs-material-ui/tree/topic/csb_local`)
