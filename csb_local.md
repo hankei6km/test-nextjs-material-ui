@@ -25,3 +25,13 @@ CodeSandbox のサンドボックスからは GitHub のリポジトリを扱う
 
 以上のことから、「GitHub サンドボックスを開くと、リンク先のブランチを毎回 fetch して reset --hard しているような状態(実際の内部的な動作は不明)になる」と言える。
 よって、PR で `main(master) ブランチでなければ、他の環境からブランチを編集していても大きな問題はおきないと思われる。
+
+## PR をマージしブランチを削除してみる
+
+1. ローカルで `gh pr merge -m`
+1. GitHub 上でサンドボックスが作成したブランチが削除される
+1. サンドボックスを開き直す
+1. 以下のエラーが表示され、サンドボックスの GitHub タブのアイコンに黄色のドットが付いたままになる
+
+> We were not able to compare the content with the source, please refresh or report the issue.
+> Not Found
