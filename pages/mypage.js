@@ -19,6 +19,11 @@ export default function Mypage() {
         <Typography variant="h4" component="h1" gutterBottom>
           テストのページ
         </Typography>
+        <Typography variant="body1" gutterBottom>
+          このPRはリポジトリのリネームをした後、CodeSandboxや Vercel
+          側の挙動がどうなるか確認するためのもの。 これはリネーム前。
+          リネームした。
+        </Typography>
         <NextLink href={'/'}>
           <a>index</a>
         </NextLink>
